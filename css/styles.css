@@ -1,0 +1,126 @@
+body {
+    /* background-color: #283149; */
+    text-align: center;
+    background-color: #010620;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #d8edf3;
+    /* font-family: "Arvo", cursive, serif; */
+    font-family: "Exo 2", sans-serif;
+    font-weight: 900;
+    /* text-shadow: 3px 0 #da0463; */
+    text-shadow: 3px 0 rgb(45, 48, 78);
+}
+
+.colored-letter {
+    color: rgb(62, 112, 250);
+    text-shadow: none;
+}
+
+footer {
+    font-family: "Verdana", sans-serif;
+    color: #d8edf3;
+    font-size: 0.8rem;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #000418;
+    border-top: 2px solid #d8edf3;
+    padding: 20px 0;
+    border-radius: 0 0 10px 10px;
+    opacity: 0.8;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover {
+    color: rgb(125, 160, 255);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -16px;
+}
+
+.info {
+    color: #8c9a9e;
+    font-family: "Arvo", cursive;
+    font-weight: 400;
+    font-size: 0.82rem;
+    margin-top: -16px;
+    opacity: 0.8;
+}
+
+.w {
+    background-image: url("../assets/images/tom1.png");
+}
+
+.a {
+    background-image: url("../assets/images/tom2.png");
+}
+
+.s {
+    background-image: url("../assets/images/tom3.png");
+}
+
+.d {
+    background-image: url("../assets/images/tom4.png");
+}
+
+.j {
+    background-image: url("../assets/images/snare.png");
+}
+
+.k {
+    background-image: url("../assets/images/crash.png");
+}
+
+.l {
+    background-image: url("../assets/images/kick.png");
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+.drum {
+    outline: none;
+    /* border: 10px solid #404b69; */
+    border: 8px solid rgb(45, 83, 199);
+    font-size: 5rem;
+    font-family: "Arvo", cursive;
+    /* font-family: "Exo 2", sans-serif; */
+    line-height: 2;
+    font-weight: 900;
+    /* color: #da0463; */
+    color: #d8edf3;
+    text-shadow: 3px 0 rgb(8, 24, 68);
+    /* text-shadow: 3px 0 #dbedf3; */
+    border-radius: 12px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+}
